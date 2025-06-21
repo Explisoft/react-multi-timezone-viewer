@@ -1,6 +1,6 @@
 {
   "name": "react-multi-timezone-viewer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Placeholder",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",

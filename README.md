@@ -3,7 +3,7 @@
 
 A smart React component that displays a given datetime in multiple timezones with daylight saving adjustments.  
 On hover, it shows a tooltip with selected timezones and an easy-to-use configuration dialog.  
-User preferences can be shared across websites using secure storage hosted by [explisoft.com](https://explisoft.com).
+User preferences can be shared across websites using secure storage hosted by [explisoft.com](https://www.explisoft.com).
 
 ---
 
@@ -69,7 +69,7 @@ export default function MyComponent() {
 |-----------------------|-----------|----------|---------|-----------------------------------------------------------------------------|
 | `datetime`            | `string`  | ✅ Yes   | –       | Date & time in `YYYY-MM-DD hh:mm:ss` format                                |
 | `dateTimeZone`        | `string`  | ✅ Yes   | –       | Timezone of the given datetime (e.g. `Asia/Kolkata`)                        |
-| `useCrossSiteStorage` | `boolean` | ❌ No    | `false` | Enable to share preferences via https://explisoft.com cross-site storage   |
+| `useCrossSiteStorage` | `boolean` | ❌ No    | `false` | Enable to share preferences via https://www.explisoft.com cross-site storage   |
 | `className`           | `string`  | ❌ No    | –       | Apply your custom CSS styles to the datetime text                          |
 
 ---
@@ -99,7 +99,7 @@ You can pass a `className` to apply your own styles:
 
 ## 🛡 Security
 
-This component uses secure cross-origin messaging (`postMessage`) to communicate with `https://explisoft.com`. No personally identifiable information is stored or transmitted.
+This component uses secure cross-origin messaging (`postMessage`) to communicate with `https://www.explisoft.com`. No personally identifiable information is stored or transmitted.
 
 ---
 
@@ -113,4 +113,4 @@ MIT © 2025 [Nishant Kumar](https://nishant.live)
 
 Open to pull requests and issues on GitHub. Let's make it better together!
 
-GitHub Repo: [https://github.com/yourgithubprofile/react-multi-timezone-viewer](https://github.com/yourgithubprofile/react-multi-timezone-viewer)
+GitHub Repo: [https://github.com/Explisoft/react-multi-timezone-viewer](https://github.com/Explisoft/react-multi-timezone-viewer)
