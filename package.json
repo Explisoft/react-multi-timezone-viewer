@@ -1,0 +1,43 @@
+{
+  "name": "react-multi-timezone-viewer",
+  "version": "1.0.0",
+  "description": "Placeholder",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Explisoft/react-multi-timezone-viewer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Explisoft/react-multi-timezone-viewer/issues"
+  },
+  "homepage": "https://github.com/Explisoft/react-multi-timezone-viewer#readme",
+  "devDependencies": {
+    "@types/luxon": "^3.6.2",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.5.2",
+    "dts-bundle-generator": "^9.5.1",
+    "rollup": "^4.44.0",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "@vvo/tzdb": "^6.172.0",
+    "luxon": "^3.6.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
