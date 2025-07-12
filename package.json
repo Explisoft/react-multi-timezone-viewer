@@ -1,6 +1,6 @@
 {
   "name": "react-multi-timezone-viewer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Placeholder",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -16,7 +16,20 @@
     "type": "git",
     "url": "git+https://github.com/Explisoft/react-multi-timezone-viewer.git"
   },
-  "keywords": [],
+  "keywords": [
+    "timezone",
+    "timezones",
+    "multi-timezone",
+    "timezone-viewer",
+    "world-clock",
+    "time-converter",
+    "timezone-dashboard",
+    "time-zone-selector",
+    "utc",
+    "datetime",
+    "react-component",
+    "time-zones"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
